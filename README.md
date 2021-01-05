@@ -1,5 +1,5 @@
 # Codewars-Problems
-Set of problems from codewars about certain programming solutions.
+Set of problems from codewars about certain programming solutions. Code is in python or C++
 
 Even or Odd
 -----------

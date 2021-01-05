@@ -1,5 +1,5 @@
 # Codewars-Problems
-Set of problems from codewars about certain programming solutions 
+Set of problems from codewars about certain programming solutions.
 Even or Odd
 -----------
 Create a function (or write a script in Shell) that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.

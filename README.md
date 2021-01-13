@@ -82,6 +82,13 @@ For example, the following code will result in an array containing the numbers 0
 
 arr(5) // => [0,1,2,3,4]
 
+Find the Odd int
+----------------
+
+Given an array of integers, find the one that appears an odd number of times.
+
+There will always be only one integer that appears an odd number of times.
+
 Find the Pairity Outlier
 ------------------------
 
@@ -207,6 +214,25 @@ You get an array of numbers, return the sum of all of the positives ones.
 Example [1,-4,7,12] => 1 + 7 + 12 = 20
 
 Note: if there is nothing to sum, the sum is default to 0.
+
+The Hashtag Generator
+---------------------
+
+The marketing team is spending way too much time typing in hashtags.
+Let's help them with our own Hashtag Generator!
+
+Here's the deal:
+
+    It must start with a hashtag (#).
+    All words must have their first letter capitalized.
+    If the final result is longer than 140 chars it must return false.
+    If the input or the result is an empty string it must return false.
+
+Examples
+
+" Hello there thanks for trying my Kata"  =>  "#HelloThereThanksForTryingMyKata"
+"    Hello     World   "                  =>  "#HelloWorld"
+""                                        =>  false
 
 Vowel Count
 -----------

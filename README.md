@@ -41,6 +41,22 @@ and a tower of 6 floors looks like below
   '***********'
 ]
 
+Counting Duplicates
+-------------------
+
+Count the number of Duplicates
+
+Write a function that will return the count of distinct case-insensitive alphabetic characters and numeric digits that occur more than once in the input string. The input string can be assumed to contain only alphabets (both uppercase and lowercase) and numeric digits.
+Example
+
+"abcde" -> 0 # no characters repeats more than once
+"aabbcde" -> 2 # 'a' and 'b'
+"aabBcde" -> 2 # 'a' occurs twice and 'b' twice (`b` and `B`)
+"indivisibility" -> 1 # 'i' occurs six times
+"Indivisibilities" -> 2 # 'i' occurs seven times and 's' occurs twice
+"aA11" -> 2 # 'a' and '1'
+"ABBA" -> 2 # 'A' and 'B' each occur twice
+
 Descending Order
 ----------------
 
@@ -164,6 +180,21 @@ Finish the solution so that it returns the sum of all the multiples of 3 or 5 be
 
     Note: If the number is a multiple of both 3 and 5, only count it once. Also, if a number is negative, return 0(for languages that do have them)
 
+Persistent Bugger
+-----------------
+
+Write a function, persistence, that takes in a positive parameter num and returns its multiplicative persistence, which is the number of times you must multiply the digits in num until you reach a single digit.
+
+For example:
+
+persistence(39) => 3  # Because 3*9 = 27, 2*7 = 14, 1*4=4
+                       # and 4 has only one digit.
+
+persistence(999) => 4 # Because 9*9*9 = 729, 7*2*9 = 126,
+                       # 1*2*6 = 12, and finally 1*2 = 2.
+
+persistence(4) => 0   # Because 4 is already a one-digit number.
+
 Quarter of the Year
 -------------------
 
@@ -180,6 +211,13 @@ Remove String Spaces
 --------------------
 
 Simple, remove the spaces from the string, then return the resultant string.
+
+Reverse Words
+-------------
+
+Write a function that takes in a string of one or more words, and returns the same string, but with all five or more letter words reversed (Just like the name of this Kata). Strings passed in will consist of only letters and spaces. Spaces will be included only when more than one word is present.
+
+Examples: spinWords( "Hey fellow warriors" ) => returns "Hey wollef sroirraw" spinWords( "This is a test") => returns "This is a test" spinWords( "This is another test" )=> returns "This is rehtona test"
 
 Shortest Word
 -------------

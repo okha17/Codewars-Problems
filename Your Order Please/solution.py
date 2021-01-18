@@ -11,4 +11,3 @@ def order(sentence):
                 solution.append(i)
                 count = int(count) + 1 # increase the count looking for next word
     return " ".join(solution) # return string answer
-    return " ".join(solution) # return string answer

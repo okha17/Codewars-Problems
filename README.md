@@ -77,6 +77,17 @@ Example
 "aA11" -> 2 # 'a' and '1'
 "ABBA" -> 2 # 'A' and 'B' each occur twice
 
+Create Phone Number
+-------------------
+
+Write a function that accepts an array of 10 integers (between 0 and 9), that returns a string of those numbers in the form of a phone number.
+Example:
+
+create_phone_number([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) # => returns "(123) 456-7890"
+
+The returned format must be correct in order to complete this challenge.
+Don't forget the space after the closing parentheses!
+
 Descending Order
 ----------------
 
@@ -247,6 +258,22 @@ Remove String Spaces
 
 Simple, remove the spaces from the string, then return the resultant string.
 
+Replace With Alphabet Position
+------------------------------
+
+Welcome.
+
+In this kata you are required to, given a string, replace every letter with its position in the alphabet.
+
+If anything in the text isn't a letter, ignore it and don't return it.
+
+"a" = 1, "b" = 2, etc.
+Example
+
+alphabet_position("The sunset sets at twelve o' clock.")
+
+Should return "20 8 5 19 21 14 19 5 20 19 5 20 19 1 20 20 23 5 12 22 5 15 3 12 15 3 11" (as a string)
+
 Reverse Words
 -------------
 
@@ -351,3 +378,16 @@ likes(["Alex", "Jacob", "Mark", "Max"]) # must be "Alex, Jacob and 2 others like
 
 For 4 or more names, the number in and 2 others simply increases.
 
+Your Order Please
+-----------------
+
+Your task is to sort a given string. Each word in the string will contain a single number. This number is the position the word should have in the result.
+
+Note: Numbers can be from 1 to 9. So 1 will be the first word (not 0).
+
+If the input string is empty, return an empty string. The words in the input String will only contain valid consecutive numbers.
+Examples
+
+"is2 Thi1s T4est 3a"  -->  "Thi1s is2 3a T4est"
+"4of Fo1r pe6ople g3ood th5e the2"  -->  "Fo1r the2 g3ood 4of th5e pe6ople"
+""  -->  ""

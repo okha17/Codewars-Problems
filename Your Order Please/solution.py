@@ -1,5 +1,5 @@
 def order(sentence):
-    if not sentence: # if the sentence is empty return empty string
+    if not sentence: # if the sentence is empty return empty string 
         return ""
     sen_list = sentence.split(" ") # split the string into a list
     solution = [] # list to hold correct order of words
